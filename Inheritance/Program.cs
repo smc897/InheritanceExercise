@@ -28,6 +28,10 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            Bird b = new Bird("roof", 3, "hello polly", "red");
+            Console.WriteLine($"{b.Name},{b.Sound},{b.FavoriteRoostingPlace},{b.BeakSize},{b.FavoriteWord},{b.FavoriteFood},{b.FeatherColor},{b.NumberOfLegs},{b.Name}");
+            Reptile r = new Reptile("1000", "roach", "dish", 4);
+            Console.WriteLine($"{r.Sound},{r.Name},{r.NumberOfLegs},{r.NumberOfEyes},{r.NumberOfScales},{r.FavoriteBug},{r.FavoriteFood},{r.FavoriteSpot}");
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
